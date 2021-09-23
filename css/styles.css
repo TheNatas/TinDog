@@ -1,0 +1,151 @@
+body{
+  font-family: 'Baloo 2', cursive;
+}
+h1,h2,h3{
+  font-family: "Times New Roman", serif;
+}
+section#title{
+  background-color: #ED4866;
+  padding: 1rem 12rem 0;
+  overflow: hidden;
+  height: 34.375rem;
+}
+#navbarNavAltMarkup{
+  flex-direction: row-reverse;
+}
+.navbar-brand{
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+#title .nav-item{
+  margin-right: 2rem;
+  color: rgb(193, 193, 193);
+}
+#title h1{
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+#img-phone{
+  transform: rotate(25deg);
+  height: 34.375rem;
+}
+#title .row{
+  margin-top: 2rem;
+}
+.btn-img{
+  height: 1rem;
+}
+#title .btn-img{
+  margin-right: 0.25rem;
+  position: relative;
+  bottom: 0.0625rem;
+}
+
+section#features .row{
+  margin: 10rem;
+}
+#features img{
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}
+#features .row div{
+  text-align: center;
+}
+#features h3{
+  font-size: 1.3rem;
+}
+#features p{
+  color: rgb(193, 193, 193);
+  width: 13.8125rem;
+  margin: auto;
+}
+@media screen and (max-width: 576px){
+  section#features p{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px){
+  section#features .row{
+    margin: 5rem 0;
+  }
+  #features #elite-clientele{
+    margin: 2rem 0;
+  }
+}
+
+section#testimonials{
+  background-color: salmon;
+  text-align: center;
+  color: white;
+  padding: 5rem 0 0 0;
+}
+#testimonials h2{
+  width: 50%;
+  margin: 0 auto 2rem;
+}
+#testimonials img{
+  width: 80px;
+  border-radius: 10rem;
+}
+
+section#press{
+  padding: 5rem 10rem;
+}
+section#press{
+  background-color: salmon;
+}
+#press img{
+  width: 12.5rem;
+}
+
+section#pricing{
+  text-align: center;
+  padding: 5rem 2rem;
+}
+#pricing h2{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#pricing > div{
+  margin: 3rem;
+}
+#pricing .card-columns{
+  column-gap: 2.5rem;
+}
+#pricing p{
+  color: rgb(193, 193, 193);
+}
+#pricing button{
+  width: 90%;
+}
+
+section#cta{
+  background-color: #ED4866;
+  text-align: center;
+  color: white;
+  padding: 4rem 0 5rem;
+}
+#cta h3{
+  font-size: 2.75rem;
+  width: 50%;
+  margin: 0 auto;
+}
+#cta #buttons-div{
+  margin-top: 3rem;
+}
+#cta .btn-img{
+  position: relative;
+  bottom: 0.125rem;
+}
+
+#footer{
+  text-align: center;
+  color:rgb(193, 193, 193);
+  padding: 5rem;
+}
+#footer img{
+  width: 1rem;
+  margin: 1rem .5rem;
+}
